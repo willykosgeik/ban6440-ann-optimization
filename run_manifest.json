@@ -1,0 +1,65 @@
+{
+  "seed": 42,
+  "dataset": "teleconnect.csv",
+  "dataset_sha256": "88be4b93fbe0cc83421af1c503794c97c342eca914c1576db7c276e61d61358a",
+  "n_rows": 7043,
+  "n_features_after_encoding": 30,
+  "train_size": 4507,
+  "validation_size": 1127,
+  "test_size": 1409,
+  "validation_auc": {
+    "SGD": 0.8437787795065678,
+    "RMSprop": 0.8461498069248541,
+    "Adam": 0.8443523500234276
+  },
+  "selected_optimizer_by_validation_auc": "RMSprop",
+  "thresholds_selected_on_validation": {
+    "Baseline": 0.5,
+    "SGD": 0.6,
+    "RMSprop": 0.6,
+    "Adam": 0.6
+  },
+  "confusion_matrices_test": {
+    "Baseline": [
+      [
+        913,
+        122
+      ],
+      [
+        177,
+        197
+      ]
+    ],
+    "SGD": [
+      [
+        809,
+        226
+      ],
+      [
+        105,
+        269
+      ]
+    ],
+    "RMSprop": [
+      [
+        829,
+        206
+      ],
+      [
+        113,
+        261
+      ]
+    ],
+    "Adam": [
+      [
+        818,
+        217
+      ],
+      [
+        105,
+        269
+      ]
+    ]
+  },
+  "tensorflow_version": "2.21.0"
+}
