@@ -143,8 +143,4 @@ For stronger statistical evidence, repeat the experiment across multiple stratif
 Responsible use
 The model is a decision-support tool for prioritizing retention outreach. It should not be used as the sole basis for punitive pricing, denial of service, or other high-impact customer decisions. Before deployment, evaluate subgroup performance, privacy controls, calibration, drift, campaign capacity, and actual retention uplift.
 Feature importance indicates model reliance on predictive variables; it does not demonstrate that a feature causes churn. Correlated variables may divide or obscure permutation importance.
-Citation and academic integrity
-The accompanying assignment report and AI disclosure form document the academic context, sources, AI assistance, testing, verification, and limitations. The AI disclosure should include the following reconciliation statement:
 “After the final execution, I reconciled the model-comparison CSV, confusion matrices, threshold results, feature-importance output, training plots, and written narrative so that all reported values came from the same documented run. I also verified that threshold selection used validation predictions and that the final test set was reserved for the locked-threshold evaluation.”
-License
-This repository is intended for academic coursework. Add an appropriate license if the repository is later reused or distributed outside the course.
